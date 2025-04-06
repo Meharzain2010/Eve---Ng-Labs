@@ -1,6 +1,6 @@
-# OSPF 99 – Multi-Area OSPF Lab (EVE-NG)
+# OSPF 10 – Multi-Area OSPF Lab (EVE-NG)
 
-Welcome to the **OSPF 99 Lab**, a hands-on advanced OSPF (Open Shortest Path First) simulation designed and inspired by **Sir Tauqeer Shah SB**. This project focuses on building multi-area routing configurations using Cisco devices inside the **EVE-NG network emulator**.
+Welcome to the **OSPF 10 Lab**, a hands-on advanced OSPF (Open Shortest Path First) simulation designed and inspired by **Sir Tauqeer Shah SB**. This project focuses on building multi-area routing configurations using Cisco devices inside the **EVE-NG network emulator**.
 
 ---
 
@@ -47,5 +47,5 @@ For full IP plan, refer to the topology diagram.
 1. Configure each router with the correct OSPF area ID (Area 0, 1, or 2).
 2. Enable OSPF using:
    ```bash
-   router ospf 99
+   router ospf 10
    network <network_ip> <wildcard_mask> area <area_id>
